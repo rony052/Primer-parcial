@@ -11,4 +11,4 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g surge
-      - run: surge ./ https://rony052-practica.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      - run: surge ./ ronyitla05-parcial.surge.sh --token ${{ secrets.SURGE_TOKEN }}
